@@ -1,4 +1,4 @@
-//setup empty array
+//setup array of friends to compare
 const friends = [
   {
     "name": "Brad",
