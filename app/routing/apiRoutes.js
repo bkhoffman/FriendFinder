@@ -23,7 +23,7 @@ module.exports = function(app) {
         totalDifference += Math.abs(parseInt(newFriendScores[j]) - parseInt(friendData[i].scores[j]));
         //check Difference against scoreDiff to see which is lower and put in new bestFriend if lower
         //update scoreDiff with the new "lowest" totalDiff to compare next cycle through
-        if(totalDifference < scoreDiff){
+        if(totalDifference < bestFriend.scoreDiff){
           bestFriend.name = friendData[i].name;
           bestFriend.photo = friendData[i].photo;
           bestFriend.scoreDiff = totalDifference;

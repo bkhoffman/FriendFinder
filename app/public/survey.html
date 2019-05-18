@@ -186,13 +186,13 @@
           ]
         };
         
-        console.log(newFriend);
+        console.log("Before api call: "+ newFriend);
         $.post("/api/friends", newFriend)
           .then(function(data){
             console.log("New Friend Posted: "+data);
             //grab matched friends info to display to the modal
             $('#matchName').text(data.name);
-            $('matchImg').attr("src", data.photo-link);
+            $('matchImg').attr("src", data.photo);
             $('resultsModal').modal("toggle");
           })
       });
