@@ -2,7 +2,7 @@
 const friends = [
   {
     "name": "Andrew Clark",
-    "photo": "https://www.imdb.com/title/tt0088847/mediaviewer/rm3206751744?ft0=name&fv0=nm0000389&ft1=image_type&fv1=still_frame",
+    "photo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSaGDipVhodPIHnW1szVGcFuNsEfuyd0sZ5jWbuvvhSSbe0qArUxw",
     "scores": [
       "3",
       "5",
@@ -18,7 +18,7 @@ const friends = [
   },
   {
     "name": "Brian Johnson",
-    "photo": "https://www.imdb.com/title/tt0088847/mediaviewer/rm3214875904?ft0=name&fv0=nm0001309&ft1=image_type&fv1=still_frame",
+    "photo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTXcix6AJS6t0MAa14zJZgkrbmF46wElWfldPCYaP49Mxw6mcHdjg",
     "scores": [
       "2",
       "5",
@@ -34,7 +34,7 @@ const friends = [
   },
   {
     "name": "John Bender",
-    "photo": "https://www.imdb.com/title/tt0088847/mediaviewer/rm956498944?ft0=name&fv0=nm0000555&ft1=image_type&fv1=still_frame",
+    "photo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQtqAgDTTVQpXEsqB1MG7QLDmqsYuAcMIPYDBWA7jZF3adgmyB3",
     "scores": [
       "5",
       "3",
@@ -51,7 +51,7 @@ const friends = [
 
   {
     "name": "Claire Standish",
-    "photo": "https://www.imdb.com/title/tt0088847/mediaviewer/rm3058145280?ft0=name&fv0=nm0000208&ft1=image_type&fv1=still_frame",
+    "photo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT1lBRMLnsSRXlApJMUn8VQf0kmtVA1vmxb6PgqGSKBmI10WzfIXw",
     "scores": [
       "4",
       "2",
@@ -67,7 +67,7 @@ const friends = [
   },
   {
     "name": "Allison Reynolds",
-    "photo": "https://www.imdb.com/title/tt0088847/mediaviewer/rm3384019712?ft0=name&fv0=nm0000639&ft1=image_type&fv1=still_frame",
+    "photo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRQheUyayOLjTjsjt-uOJOqFTnlda2KU4VcRKaIZB9F7ySgneOk",
     "scores": [
       "5",
       "1",

@@ -136,7 +136,7 @@
             </select>
           </div>
 
-          <button type="submit" class="btn btn-primary" id = "submitButton">Submit</button>
+          <button type="submit" class="btn btn-primary" id = "submitButton" data-target="modal">Submit</button>
         </form>
         <div>
             <hr>
@@ -150,16 +150,16 @@
             <div class="modal-content">
               <div class="modal-header">
                 <h3 class="modal-title">Best Match</h3>
-                <button type="button" class="close" onclick="location.reload()" data-dismiss="modal" aria-label="Close">
+                <button type="button" class="close"  data-dismiss="modal" aria-label="Close">
                     <span aria-hidden="true">&times;</span>
                 </button>        
               </div>
               <div class="modal-body">
                 <h3 id="matchName"></h3>
-                <img id="matchImg" src="http://via.placeholder.com/350x250" alt="">
+                <img id="matchImg" src="" alt="">
               </div>
               <div class="modal-footer">
-                <button type="button" class="btn btn-secondary" onclick="location.reload()" data-dismiss="modal">Close</button>
+                <button type="button" class="btn btn-secondary"  data-dismiss="modal">Close</button>
               </div>
             </div>
           </div>
@@ -189,11 +189,11 @@
         console.log("Before api call: "+ newFriend);
         $.post("/api/friends", newFriend)
           .then(function(data){
-            console.log("New Friend Posted: "+data);
+            console.log("Photo: "+data.photo);
             //grab matched friends info to display to the modal
             $('#matchName').text(data.name);
-            $('matchImg').attr("src", data.photo);
-            $('resultsModal').modal("toggle");
+            $('#matchImg').attr("src", data.photo);
+            $('#resultsModal').modal("toggle");
           })
       });
     </script>
